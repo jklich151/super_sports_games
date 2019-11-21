@@ -10,7 +10,7 @@ ages = [24, 30, 18, 20, 41]
 puts ages.count
 
 ages = [24, 30, 18, 20, 41]
-puts ages.sum/ages.count
+puts ages.sum.to_f/ages.count.to_f
 
 ages = [24, 30, 18, 20, 41]
 ages.each do |age|
@@ -19,7 +19,7 @@ end
 
 ages = [24, 30, 18, 20, 41]
 ages.each do |age|
-puts ((age - 26)(** 2))
+puts 
 end
 
 
