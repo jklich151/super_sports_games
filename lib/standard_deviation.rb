@@ -6,6 +6,17 @@ end
 
 p total
 
-# Your code here for calculating the standard deviation
+ages = [24, 30, 18, 20, 41]
+puts ages.count
+
+ages = [24, 30, 18, 20, 41]
+puts ages.sum/ages.count
+
+ages = [24, 30, 18, 20, 41]
+ages.each do |age|
+puts.each - 26
+
+end 
+
 
 # When you find the standard deviation, print it out
