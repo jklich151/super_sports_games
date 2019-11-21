@@ -2,24 +2,24 @@ class Event
   attr_reader :name; :ages;
 
 def initialize(name, ages)
-  @name = name
-  @age = ages
+  @name = ""
+  @ages = []
 end
 
 def max_age
-  puts 41
+  @ages.max
 end
 
 def min_age
-  puts 18
+  @ages.min
 end
 
 def average_age
-  puts 26.6
+  @ages.sum/@ages.count
 end
 
 def standard_deviation_age
-  puts 8.28
+  
 end
 
 end
