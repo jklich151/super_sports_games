@@ -14,9 +14,13 @@ puts ages.sum/ages.count
 
 ages = [24, 30, 18, 20, 41]
 ages.each do |age|
-puts.each - 26
+puts (age - 26)
+end
 
-end 
+ages = [24, 30, 18, 20, 41]
+ages.each do |age|
+puts ((age - 26)(** 2))
+end
 
 
 # When you find the standard deviation, print it out
